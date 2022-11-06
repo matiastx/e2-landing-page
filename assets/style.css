@@ -7,7 +7,8 @@
   --safety-orange: #ff7700ff;
   --buff: #efd28dff;
   --onyx: #393e41ff;
-  --rich-black-fogra-29: #040f16ff;
+  --silver: rgb(109, 109, 109);
+  --rich-black: #040f16ff;
   --indigo-dye: #004777ff;
   --capri: #30c5ffff;
   --keppel: #44bba4ff;
@@ -32,31 +33,6 @@ header {
   background-color: var(--onyx);
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 60px;
-}
-
-.navbar-list {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  padding: 0 200px;
-}
-
-.navbar a,
-.navbar-list a,
-.navbar-cont a {
-  color: whitesmoke;
-  font-family: "Shrikhand";
-}
-
-.navbar-list li:first-child > a {
-  font-weight: 400;
-}
-
 .logo {
   height: 100%;
 }
@@ -71,4 +47,33 @@ header {
 .logo-pkg p {
   color: whitesmoke;
   font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 65px;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 0 200px;
+}
+
+.navbar a,
+.navbar-list a,
+.navbar-cont a {
+  color: whitesmoke;
+  font-family: "Shrikhand", cursive;
+}
+
+.navbar-list li:first-child > a {
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--silver);
 }
