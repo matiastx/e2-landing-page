@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Kanit&family=Patrick+Hand&family=Roboto&family=Shrikhand&family=Signika+Negative:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap");
 
 :root {
   --ivory: #f6f7ebff;
@@ -59,19 +59,21 @@ header {
 .navbar-list {
   display: flex;
   align-items: center;
-  gap: 60px;
-  padding: 0 120px;
+  gap: 30px;
+  padding: 0 100px;
 }
 
 .navbar a,
 .navbar-list a,
 .navbar-cont a {
   color: whitesmoke;
-  font-family: "Shrikhand", cursive;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 20px;
+  /* font-family: "Shrikhand", cursive; */
 }
 
 .navbar-list li:first-child > a {
-  font-weight: 400;
   color: var(--safety-orange);
 }
 
