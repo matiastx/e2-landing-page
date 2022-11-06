@@ -1,17 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Kanit&family=Patrick+Hand&family=Roboto&family=Shrikhand&family=Signika+Negative:wght@700&display=swap");
 
 :root {
-  --red-munsell: #ed0039ff;
   --ivory: #f6f7ebff;
   --cinnabar: #e94f37ff;
   --safety-orange: #ff7700ff;
-  --buff: #efd28dff;
   --onyx: #393e41ff;
   --silver: rgb(109, 109, 109);
-  --rich-black: #040f16ff;
-  --indigo-dye: #004777ff;
-  --capri: #30c5ffff;
-  --keppel: #44bba4ff;
 }
 
 * {
@@ -27,21 +21,27 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: solid 1px var(--cinnabar);
+  border: solid 1px var(--safety-orange);
   height: 65px;
   width: 100%;
   background-color: var(--onyx);
 }
 
 .logo {
-  height: 100%;
+  height: 90%;
 }
 
-.logo-pkg {
+.logo-c {
+  height: 50%;
+}
+
+.logo-pkg,
+.navbar-cont {
   display: flex;
   align-items: center;
-  height: 65%;
+  height: 65px;
   padding: 0 50px;
+  gap: 10px;
 }
 
 .logo-pkg p {
@@ -53,14 +53,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 65px;
+  padding: 0 20px;
 }
 
 .navbar-list {
   display: flex;
   align-items: center;
   gap: 60px;
-  padding: 0 200px;
+  padding: 0 120px;
 }
 
 .navbar a,
@@ -72,6 +72,7 @@ header {
 
 .navbar-list li:first-child > a {
   font-weight: 400;
+  color: var(--safety-orange);
 }
 
 body {
